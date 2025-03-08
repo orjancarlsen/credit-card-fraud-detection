@@ -26,10 +26,10 @@ Below is the confusion matrix for the model's performance on the test set:
 
 This shows 75 fraudulent cases were correctly detected, while 23 cases werent detected. There were also 2 false positives. 97\% of the fraudulent cases are detected, but when the model classifies a transaction as fraudulent, it is only correct 77\% of the time. This results in a F1-score of 0.86.
 
-$ \text{Precision} = \frac{TP}{TP + FP} = \frac{75}{75 + 2} = 0.97 $
+![Precision Formula](https://latex.codecogs.com/png.image?\dpi{110} \text{Precision} = \frac{TP}{TP + FP} = \frac{75}{75 + 2} = 0.97)
 
-$ \text{Recall} = \frac{TP}{TP + FN} = \frac{75}{75 + 23} = 0.77 $
+![Recall Formula](https://latex.codecogs.com/png.image?\dpi{110} \text{Recall} = \frac{TP}{TP + FN} = \frac{75}{75 + 23} = 0.77)
 
-$ \text{F1} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} = 0.86$
+![F1 Score Formula](https://latex.codecogs.com/png.image?\dpi{110} F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} = 0.86)
 
 For comparison, [this solution](https://www.kaggle.com/code/renjithmadhavan/credit-card-fraud-detection-using-python) achieved a f1-score 0.68, 21\% lower than the solution propsed here.
