@@ -30,8 +30,12 @@ This shows 75 fraudulent cases were correctly detected, while 23 cases werent de
 \text{Precision} = \frac{TP}{TP + FP} = \frac{75}{75 + 2} = 0.97
 ```
 
-$ \text{Recall} = \frac{TP}{TP + FN} = \frac{75}{75 + 23} = 0.77 $
+```math
+\text{Recall} = \frac{TP}{TP + FN} = \frac{75}{75 + 23} = 0.77 $
+```
 
-$ \text{F1} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} = 0.86$
+```math
+\text{F1} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} = 0.86$
+```
 
 For comparison, [this solution](https://www.kaggle.com/code/renjithmadhavan/credit-card-fraud-detection-using-python) achieved a f1-score 0.68, 21\% lower than the solution propsed here.
