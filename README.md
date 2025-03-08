@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection
 
-Ensamble learning model for detecting fraudulent credit card activities.
+Ensemble learning model for detecting fraudulent credit card activities.
 
 ## Dataset
 
