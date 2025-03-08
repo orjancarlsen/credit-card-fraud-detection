@@ -38,4 +38,4 @@ This shows 75 fraudulent cases were correctly detected, while 23 cases werent de
 \text{F1} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} = 0.86
 ```
 
-For comparison, [this solution](https://www.kaggle.com/code/renjithmadhavan/credit-card-fraud-detection-using-python) achieved a f1-score 0.68, 21\% lower than the solution propsed here.
+For comparison, [this solution](https://www.kaggle.com/code/renjithmadhavan/credit-card-fraud-detection-using-python) achieved a F1-score 0.68, 21\% lower than the solution propsed here.
